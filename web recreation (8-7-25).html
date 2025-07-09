@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>gs_creations</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    .promo-bar {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 8px;
+      font-size: 14px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background-color: white;
+    }
+
+    .logo {
+      height: 50px;
+    }
+
+    .nav-links a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .search-bar {
+      width: 40%;
+      padding: 8px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      color: #444;
+    }
+
+    .hero-img img {
+      border-radius: 30px;
+      height: 400px;
+    }
+
+    .side-buttons {
+      position: fixed;
+      right: 10px;
+      top: 200px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .side-buttons button {
+      padding: 10px;
+      border: none;
+      background-color: #f1f1f1;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="promo-bar">
+    🎁 ✏️ Get a free discount voucher when you shop for ₹200 or more! ✏️ 🎁
+  </div>
+
+  <div class="header">
+    <img src="C:\Users\Gayu Saravanan\OneDrive\business\GS LOGO.jpg" alt="Lovely Logo" class="logo">
+    <input type="text" placeholder="Search your products here" class="search-bar">
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Simplicity is the keynote of all true elegance</h1>
+      <p>
+        Discover a world of thoughtfully crafted accessories that add charm to your everyday look. Whether you're dressing up for a celebration or adding a touch of sparkle to your daily routine, our collection of jewelry, bags, and handmade pieces are designed to reflect your unique style. We believe accessories are more than just fashion they’re expressions of personality, confidence, and creativity. Start your style journey with us today.
+      </p>
+    </div>
+    <div class="hero-img">
+      <img src="https://plus.unsplash.com/premium_photo-1683147746302-f5d920cede15?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2hvcHBpbmclMjBnaXJsfGVufDB8fDB8fHww" alt="Shopping Girl">
+    </div>
+  </div>
+</body>
+<head>
+  <meta charset="UTF-8">
+  <title>College Combo Offer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #fff;
+    }
+
+    h2 {
+      color: #d62828;
+      margin-bottom: 5px;
+    }
+
+    .offer-subtitle {
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      width: 200px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .product-title {
+      font-size: 15px;
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+
+    .price {
+      color: green;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .old-price {
+      color: red;
+      text-decoration: line-through;
+      margin-left: 8px;
+      font-size: 14px;
+    }
+
+    .limit {
+      font-size: 12px;
+      color: #c00;
+      background: #fee;
+      padding: 4px 8px;
+      border-radius: 6px;
+      display: inline-block;
+      margin-top: 5px;
+    }
+
+    .hot-deal {
+      background-color: red;
+      color: white;
+      padding: 2px 6px;
+      font-size: 11px;
+      border-radius: 5px;
+      margin-left: 8px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      border-color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>COLLEGE COMBO OFFER</h2>
+  <p class="offer-subtitle">Exclusive deals just for you</p>
+<center>
+  <div class="product-container">
+    <!-- Product 1 -->
+    <div class="card">
+      <img src="C:\Users\Gayu Saravanan\OneDrive\business\bracelet\IMG-20241128-WA0050.jpg" alt="bracelet">
+      <div class="product-title">BEADED BRACELET</div>
+      <div class="price">₹40 <span class="old-price">₹70</span></div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="card">
+      <img src="C:\Users\Gayu Saravanan\OneDrive\business\bangles\IMG-20241010-WA0000.jpg" alt="Silkthread bangles">
+      <div class="product-title">2/6 Silkthread Bangles</div>
+      <div class="price">₹90</div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="card">
+      <img src="C:\Users\Gayu Saravanan\OneDrive\business\necklace\WhatsApp Image 2025-01-16 at 18.51.23_50b20481.jpg" alt="necklace">
+      <div class="product-title">Necklace</div>
+      <div class="price">₹120 <span class="old-price">₹300</span></div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="card">
+      <img src="C:\Users\Gayu Saravanan\OneDrive\business\Anklet\IMG-20241208-WA0022.jpg" alt="Buy 2 get 1">
+      <div class="product-title">Anklet<span class="hot-deal">Anklet</span></div>
+      <div class="price">₹30<span class="old-price">₹50</span></div>
+      <div class="limit">Max 5 per user</div>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="card">
+      <img src="C:\Users\Gayu Saravanan\OneDrive\business\bracelet\WhatsApp Image 2025-03-16 at 10.22.32_7cfd831f.jpg" alt="Combo">
+      <div class="product-title">Combo</div>
+      <div class="price">₹80</div>
+    </div>
+  </div>
+</center>
+</body>
+  <meta charset="UTF-8">
+  <title>Shop by Category</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #ffffff;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 30px;
+      justify-items: center;
+    }
+
+    .category {
+      text-align: center;
+    }
+
+    .category img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .category img:hover {
+      transform: scale(1.05);
+    }
+
+    .category-name {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #1c1c1c;
+    }
+  </style>
+</head>
+<head>
+  <meta charset="UTF-8">
+  <title>gs_creations Footer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .services {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .services h2 {
+      margin-bottom: 40px;
+      font-size: 22px;
+    }
+
+    .service-boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .service {
+      width: 200px;
+      text-align: center;
+    }
+
+    .service img {
+      width: 60px;
+      height: 60px;
+    }
+
+    .service h4 {
+      margin: 15px 0 5px;
+    }
+
+    .service p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      padding: 40px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .footer-col {
+      flex: 1;
+      min-width: 200px;
+      margin-bottom: 20px;
+    }
+
+    .footer-col h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 8px;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .social-icons img {
+      width: 24px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 20px;
+      color: #777;
+    }
+  </style>
+</head>
+
+
+  <!-- Customer Service Section -->
+  <div class="services">
+    <h2>Happy Customer ✨</h2>
+    <div class="service-boxes">
+      <div class="service">
+        <img src="C:\Users\Gayu Saravanan\Downloads\delivery.png" alt="Delivery">
+        <h4>FAST DELIVERY WITHIN 5-7 DAYS</h4>
+        <p>Delivery for all orders over in Tamil Nadu ₹60 Other States ₹80</p>
+      </div>
+      <div class="service">
+        <img src="C:\Users\Gayu Saravanan\Downloads\customer-service.png" alt="Support">
+        <h4>24/7 CUSTOMER SERVICE</h4>
+        <p>Friendly 24/7 customer support<br><strong>7305879414</strong></p>
+      </div>
+      <div class="service">
+        <img src="C:\Users\Gayu Saravanan\Downloads\cashback.png" alt="Money Back">
+        <h4>MONEY BACK GUARANTEE</h4>
+        <p>We return money within 5-7 days</p>
+      </div>
+      <div class="service">
+        <img src="C:\Users\Gayu Saravanan\Downloads\customer-care.png" alt="Outlet">
+        <h4>OUR OUTLET CONTACT</h4>
+        <p>Support and Queries<br><strong>9442746829</strong></p>
+      </div>
+      <h1 style="text-align:center;">Html</h1>
+
+  
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-col">
+      <div class="logo">
+        <img src="C:\Users\Gayu Saravanan\OneDrive\business\GS LOGO.jpg" alt="gs_creations Logo" width="40"><br>
+        gs_creations
+      </div>
+      <p>gs_creations offers a delightful range of curated products, ensuring quality and value for every purchase.</p>
+      <div class="social-icons">
+        <img src="C:\Users\Gayu Saravanan\Downloads\youtube.png" alt="YouTube">
+        <img src="C:\Users\Gayu Saravanan\Downloads\facebook.png" alt="Facebook">
+        <img src="C:\Users\Gayu Saravanan\Downloads\instagram.png" alt="Instagram">
+        <img src="C:\Users\Gayu Saravanan\Downloads\whatsapp.png" alt="WhatsApp">
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h3>LINKS</h3>
+      <ul>
+        <li>Home</li>
+        <li>Cart</li>
+        <li>Wishlist</li>
+        <li>Checkout</li>
+        <li>My Account</li>
+        <li>My Order</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>POLICY</h3>
+      <ul>
+        <li>Return Policy</li>
+        <li>Terms & Conditions</li>
+        <li>Privacy Policy</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>CONTACT</h3>
+      <p>📞 +91 6381677903</p>
+      <p>📍 no:2A Aavani street<br>selliamman nagar, nerkundram, chennai,Tamil Nadu - 600107</p>
+      <p>📧 gscreations81@gmail.com</p>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    © Copyright 2025 | gs_creations | All Rights Reserved
+  </div>
+</body>
+</html>
